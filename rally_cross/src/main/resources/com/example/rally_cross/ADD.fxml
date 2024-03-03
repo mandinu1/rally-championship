@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: BLACK;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rally_cross.ADDController">
+   <children>
+      <Text fill="#eeeeee" layoutX="106.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name                    :" wrappingWidth="126.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <TextField fx:id="name" layoutX="300.0" layoutY="40.0" />
+      <Text fill="#eeeeee" layoutX="108.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Car                        :" wrappingWidth="164.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text fill="#fcfcfc" layoutX="108.0" layoutY="270.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Current point      :" wrappingWidth="164.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="106.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team                     :" wrappingWidth="126.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="106.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age                       :" wrappingWidth="126.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Text>
+      <TextField fx:id="car" layoutX="300.0" layoutY="207.0" />
+      <TextField fx:id="age" layoutX="300.0" layoutY="95.0" />
+      <TextField fx:id="team" layoutX="300.0" layoutY="149.0" />
+      <TextField fx:id="currentPoints" layoutX="300.0" layoutY="253.0" />
+      <Button fx:id="add" layoutX="449.0" layoutY="328.0" mnemonicParsing="false" onAction="#addOnClick" prefHeight="39.0" prefWidth="94.0" text="ADD">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="122.0" layoutY="328.0" mnemonicParsing="false" onAction="#navigatorBack" prefHeight="39.0" prefWidth="94.0" text="BACK">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rally_cross.datesController">
+   <children>
+      <TableView fx:id="tableView" layoutY="1.0" prefHeight="303.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="date" prefWidth="118.0" text="Date" />
+          <TableColumn fx:id="location" prefWidth="128.0" text="Location" />
+            <TableColumn fx:id="place1" prefWidth="122.0" text="1st Place" />
+            <TableColumn fx:id="place2" prefWidth="116.0" text="2nd Place" />
+            <TableColumn fx:id="place3" prefWidth="115.0" text="3rd Place" />
+        </columns>
+      </TableView>
+      <Button layoutX="47.0" layoutY="339.0" mnemonicParsing="false" onAction="#navigatorBack" prefHeight="39.0" prefWidth="94.0" text="BACK">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

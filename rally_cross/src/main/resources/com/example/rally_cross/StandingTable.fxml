@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rally_cross.StandingTableController">
+   <children>
+      <TableView fx:id="tableView" layoutY="-2.0" prefHeight="306.0" prefWidth="600.0" style="-fx-background-color: black;">
+         <columns>
+            <TableColumn fx:id="name" prefWidth="223.0" text="NAME" />
+            <TableColumn fx:id="age" minWidth="0.0" prefWidth="74.0" text="AGE" />
+            <TableColumn fx:id="team" minWidth="0.0" prefWidth="89.0" text="TEAM" />
+            <TableColumn fx:id="car" minWidth="0.0" prefWidth="99.0" text="CAR" />
+            <TableColumn fx:id="currentpoints" minWidth="0.0" prefWidth="114.0" text="CURRENT POINT" />
+         </columns>
+      </TableView>
+      <Button fx:id="back" layoutX="30.0" layoutY="327.0" mnemonicParsing="false" onAction="#navigatorBack" prefHeight="39.0" prefWidth="94.0" text="BACK">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
